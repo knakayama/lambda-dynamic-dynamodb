@@ -1,0 +1,13 @@
+{
+  "name": "lambda-dynamic-dynamodb",
+  "description": "lambda dynamic dynamodb",
+  "nameTemplate": "{{.Function.Name}}",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "TableName": "lambda_dynamic_dynamodb",
+    "TopicArn": ""
+  }
+}
